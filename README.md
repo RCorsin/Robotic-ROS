@@ -1,0 +1,7 @@
+# Robotic-ROS
+echo "# Robotic-ROS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/RCorsin/Robotic-ROS.git
+git push -u origin master
