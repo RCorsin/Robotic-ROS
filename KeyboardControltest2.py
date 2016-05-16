@@ -51,16 +51,6 @@ class GoForward(): #we use this function to go move in a straigh line
 
 			r.sleep() 
 
-			
-	#def shutdown(self):
-		# stop turtlebot
-	 #   rospy.loginfo("Stop TurtleBot")
-	# a default Twist has linear.x of 0 and angular.z of 0.  So it'll stop TurtleBot
-	  ##  self.cmd_vel.publish(Twist())
-	# sleep just makes sure TurtleBot receives the stop command prior to shutting down the script
-			#rospy.sleep(1)	
-				 
-			
 class Turn():
 	def __init__(self, direction):
 		# initiliaze
